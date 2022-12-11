@@ -14,7 +14,7 @@
 /* 
   Write the Big O time complexity of your function here
 */
-//0(n)
+//0(n*n)
 
 /* 
   Add your pseudocode here
