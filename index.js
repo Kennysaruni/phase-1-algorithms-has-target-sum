@@ -14,14 +14,30 @@
 /* 
   Write the Big O time complexity of your function here
 */
+//0(n)
 
 /* 
   Add your pseudocode here
 */
+// create an object to keep track of all the numbers we've seen
+// iterate over the array of numbers
+//   for the current number, identify a complementary number that adds to our target
+//   (for example: if our number is 2, and the target is 5, the complementary number is 3)
+//   check if any of the keys in our object is the complement to the current number
+//     if so, return true
+//   save the current number as the key on our object so we can check it later against other numbers
+// if we reach the end of the array, return false
 
 /*
   Add written explanation of your solution here
 */
+// iterate over the array of numbers
+  //   for the current number, identify a complementary number that adds to our target
+  //   (for example: if our number is 2, and the target is 5, the complementary number is 3)
+  //   iterate over the remaining numbers in the array
+  //     check if any of the remaining numbers is the complement
+  //       if so, return true
+  // if we reach the end of the array, return false
 
 // You can run `node index.js` to view these console logs
 if (require.main === module) {
